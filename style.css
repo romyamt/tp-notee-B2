@@ -19,12 +19,23 @@
   text-decoration: underline;
 }
 
+* {
+  margin: 0;
+  font-style: normal;
+  text-decoration: none;
+}
+
 header {
   background-color: #FFFFFF;
 }
 
 .accueil-introduction {
   background-color: #1f2039;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 5%;
 }
 
 h1 {
@@ -34,20 +45,18 @@ h1 {
 
 p {
   color: #FFFFFF;
+  margin: 10px;
+  margin-bottom: 20px;
+  padding-right: 200px;
 }
 
 em {
   color: #938DBE;
 }
 
-* {
-  margin: 0;
-  font-style: normal;
-  text-decoration: none;
-}
-
 .cta {
   border-radius: 13%;
   border: #938DBE;
   background-color: #938DBE;
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */

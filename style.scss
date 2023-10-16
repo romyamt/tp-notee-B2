@@ -5,12 +5,23 @@ $font-family: Helvetica, sans-serif;
 
 @use 'menu';
 
+*{ 
+    margin: 0 ;
+    font-style: normal;
+    text-decoration:none
+
+}
 header{
     background-color: $background-header ;
 }
 
 .accueil-introduction{
     background-color: $background-color;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 5%;
 }
 
 h1{
@@ -20,21 +31,22 @@ h1{
 
 p{
     color: #FFFFFF;
+    margin:10px;
+    margin-bottom: 20px;
+    padding-right: 200px;
 }
 
 em {
     color: $clair;
 }
 
-*{ 
-    margin: 0 ;
-    font-style: normal;
-    text-decoration:none
-
-}
-
 .cta{
     border-radius: 13%;
     border: $clair;
     background-color: $clair;
+    padding: 10px;
+}
+
+div{
+    
 }
