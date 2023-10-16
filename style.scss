@@ -24,23 +24,29 @@ header{
 
 .accueil-introduction{
     background-color: $background-color;
+    margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
     padding: 5%;
+    padding-left: 10%;
 }
 
 h1{
-    font-size: 250%;
+    font-size: 56px;
     color: $clair;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
 p{
     color: #FFFFFF;
+    font-size: 18px;
     margin:10px;
     margin-bottom: 20px;
     padding-right: 200px;
+    margin-bottom: 30px;
 }
 
 em {
