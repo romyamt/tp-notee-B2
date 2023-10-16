@@ -4,4 +4,17 @@ header {
 
 .accueil-introduction {
   background-color: #1f2039;
+}
+
+h1 {
+  font-size: large;
+}
+
+p {
+  color: #FFFFFF;
+}
+
+em {
+  font-style: normal;
+  color: #938DBE;
 }/*# sourceMappingURL=style.css.map */

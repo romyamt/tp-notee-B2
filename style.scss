@@ -1,5 +1,6 @@
 $background-header: #FFFFFF;
 $background-color: #1f2039;
+$clair: #938DBE;
 
 @use 'menu';
 header{
@@ -8,4 +9,17 @@ header{
 
 .accueil-introduction{
     background-color: $background-color;
+}
+
+h1{
+    font-size: large;
+}
+
+p{
+    color: #FFFFFF;
+}
+
+em{
+    font-style: normal;
+    color: $clair;
 }
