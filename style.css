@@ -29,6 +29,11 @@ header {
   background-color: #FFFFFF;
 }
 
+.nav {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 .accueil-introduction {
   background-color: #1f2039;
   display: flex;

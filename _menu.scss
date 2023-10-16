@@ -1,27 +1,9 @@
 $primary-color: #4a4a4a;
 $font-family: Helvetica, sans-serif;
 
-// Style de base pour les liens du menu
-.menu {
-  background-color: $primary-color;
-  ul.menu-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    li {
-      display: inline-block;
-      margin-right: 20px;
-      a {
-        text-decoration: none;
-        color: white;
-        font-family: $font-family;
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-    }
-  }
-}
+
+
+
 
 
 
