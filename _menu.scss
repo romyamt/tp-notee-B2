@@ -1,11 +1,14 @@
-$primary-color: #4a4a4a;
-$font-family: Helvetica, sans-serif;
 
 .nav{
      
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding: 15px;
+    gap: 15px;
+    margin: 10px;
+
 }
+
 
 
 
