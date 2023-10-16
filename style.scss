@@ -22,8 +22,22 @@ header{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-    padding: 5%;
-    padding-left: 10%;
+    padding: 80px;
+    div{
+        padding-right: 200px;
+        margin-bottom: 20px;
+    }
+    a{
+        color: #FFFFFF;
+    }
+    .cta{
+        border-radius: 50px;
+        border: $clair;
+        background-color: $clair;
+        padding: 20px 30px;
+        font-size: 16px;
+    
+    }
 }
 
 h1{
@@ -36,9 +50,6 @@ h1{
 p{
     color: #FFFFFF;
     font-size: 18px;
-    margin:10px;
-    margin-bottom: 20px;
-    padding-right: 200px;
     margin-bottom: 30px;
 }
 
@@ -46,9 +57,22 @@ em {
     color: $clair;
 }
 
-.cta{
-    border-radius: 13%;
-    border: $clair;
-    background-color: $clair;
-    padding: 10px;
+
+
+.accueil-photos{
+    div{
+    background-color: $background-header;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin:15px;
+    gap:15px;
+    }
+    h2 {
+        text-align: center;
+        margin: 20px;;
+
+    }
 }

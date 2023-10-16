@@ -20,8 +20,21 @@ header {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
-  padding: 5%;
-  padding-left: 10%;
+  padding: 80px;
+}
+.accueil-introduction div {
+  padding-right: 200px;
+  margin-bottom: 20px;
+}
+.accueil-introduction a {
+  color: #FFFFFF;
+}
+.accueil-introduction .cta {
+  border-radius: 50px;
+  border: #938DBE;
+  background-color: #938DBE;
+  padding: 20px 30px;
+  font-size: 16px;
 }
 
 h1 {
@@ -34,9 +47,6 @@ h1 {
 p {
   color: #FFFFFF;
   font-size: 18px;
-  margin: 10px;
-  margin-bottom: 20px;
-  padding-right: 200px;
   margin-bottom: 30px;
 }
 
@@ -44,9 +54,17 @@ em {
   color: #938DBE;
 }
 
-.cta {
-  border-radius: 13%;
-  border: #938DBE;
-  background-color: #938DBE;
-  padding: 10px;
+.accueil-photos div {
+  background-color: #FFFFFF;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 15px;
+  gap: 15px;
+}
+.accueil-photos h2 {
+  text-align: center;
+  margin: 20px;
 }/*# sourceMappingURL=style.css.map */
