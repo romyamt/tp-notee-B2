@@ -5,8 +5,11 @@ $primary-color: #4a4a4a;
 $font-family: Helvetica, sans-serif;
 $taillepolice: 16px;
 
+//Insertion des fichiers particuliers aux pages//
 @use 'menu';
 @use 'formulaire';
+@use 'index';
+@use 'portfolio';
 
 //Suppression de toutes les particularités//
 
@@ -16,7 +19,7 @@ $taillepolice: 16px;
     text-decoration: none
 }
 
-//Personnalisation de la page//
+//Personnalisation des pages//
     //**personnalisation des textes**//
 
 h1 {
@@ -24,10 +27,11 @@ h1 {
     color: $clair;
     font-weight: bold;
     margin-bottom: 15px;
+    background-color: $background-color;
+    padding: 80px;
 }
 
 h2 {
-    text-align: center;
     margin-bottom: 80px;
 }
 
@@ -51,61 +55,4 @@ em {
     padding: 20px 30px;
     font-size: $taillepolice;
     color: #FFFFFF;
-
-
 }
-
-
-//Spécifique à la page d'accueil et aux blocs de cette page//
-
-.accueil-introduction {
-    background-color: $background-color;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding: 80px;
-    
-
-    div {
-        padding-right: 200px;
-        margin-bottom: 20px;
-        font-size: 20px;
-    }
-
-}
-
-.accueil-photos {
-    padding: 80px;
-
-    div {
-        background-color: $background-header;
-        margin: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: center;
-        margin: 15px;
-        gap: 15px;
-    }
-}
-
-.section-contact {
-    background-color: $background-color;
-    padding: 80px;
-    h2 {
-        color: $clair;
-        font-size: 30px;
-    }
-    label {
-        color: $background-header;
-        font-size: $taillepolice;
-    }
-    .cta{
-        width: 25%;
-        margin-top: 30px;
-    }
-}
-
-

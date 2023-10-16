@@ -1,0 +1,68 @@
+$background-header: #FFFFFF;
+$background-color: #1f2039;
+$clair: #938DBE;
+$primary-color: #4a4a4a;
+$font-family: Helvetica, sans-serif;
+$taillepolice: 16px;
+
+//Spécifique à la page d'accueil et aux blocs de cette page//
+
+.accueil-introduction {
+    background-color: $background-color;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 80px;
+    
+
+    div {
+        padding-right: 200px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    h1{
+        padding: 0%;
+    }
+
+}
+
+.accueil-photos {
+    padding: 80px;
+
+    h2{
+        text-align: center;
+    }
+
+    div {
+        background-color: $background-header;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin: 15px;
+        gap: 15px;
+    }
+}
+
+.section-contact {
+    background-color: $background-color;
+    padding: 80px;
+    h2 {
+        color: $clair;
+        font-size: 30px;
+        text-align: center;
+    }
+    label {
+        color: $background-header;
+        font-size: $taillepolice;
+    }
+    .cta{
+        width: 25%;
+        margin-top: 30px;
+    }
+}
+
+
