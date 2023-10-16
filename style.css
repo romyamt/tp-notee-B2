@@ -1,3 +1,7 @@
+header {
+  background-color: #FFFFFF;
+}
+
 .nav {
   display: flex;
   justify-content: flex-end;
@@ -6,14 +10,86 @@
   margin: 10px;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.form-nom-email {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+input {
+  margin-top: 0px;
+  width: 100%;
+  margin: auto;
+}
+
+.form-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+textarea {
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  justify-content: center;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 20%;
+  max-height: 20%;
+}
+
+textarea, input {
+  border-radius: 13px;
+  border: none;
+  padding: 15px;
+}
+
 * {
   margin: 0;
   font-style: normal;
   text-decoration: none;
 }
 
-header {
-  background-color: #FFFFFF;
+h1 {
+  font-size: 56px;
+  color: #938DBE;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+p {
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+em {
+  color: #938DBE;
+}
+
+.cta {
+  display: inline-block;
+  border-radius: 50px;
+  border: #938DBE;
+  background-color: #938DBE;
+  padding: 20px 30px;
+  font-size: 16px;
+  color: #FFFFFF;
 }
 
 .accueil-introduction {
@@ -29,34 +105,10 @@ header {
   padding-right: 200px;
   margin-bottom: 20px;
 }
-.accueil-introduction a {
-  color: #FFFFFF;
-}
-.accueil-introduction .cta {
-  border-radius: 50px;
-  border: #938DBE;
-  background-color: #938DBE;
-  padding: 20px 30px;
-  font-size: 16px;
-}
 
-h1 {
-  font-size: 56px;
-  color: #938DBE;
-  font-weight: bold;
-  margin-bottom: 15px;
+.accueil-photos {
+  padding: 80px;
 }
-
-p {
-  color: #FFFFFF;
-  font-size: 18px;
-  margin-bottom: 30px;
-}
-
-em {
-  color: #938DBE;
-}
-
 .accueil-photos div {
   background-color: #FFFFFF;
   margin: auto;
@@ -67,7 +119,20 @@ em {
   margin: 15px;
   gap: 15px;
 }
-.accueil-photos h2 {
-  text-align: center;
-  margin: 50px 0px 30px 0px;
+
+.section-contact {
+  background-color: #1f2039;
+  padding: 80px;
+}
+.section-contact h2 {
+  color: #938DBE;
+  font-size: 30px;
+}
+.section-contact label {
+  color: #FFFFFF;
+  font-size: 16px;
+}
+.section-contact .cta {
+  width: 25%;
+  margin-top: 30px;
 }/*# sourceMappingURL=style.css.map */

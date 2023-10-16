@@ -1,4 +1,13 @@
+$background-header: #FFFFFF;
+$background-color: #1f2039;
+$clair: #938DBE;
+$primary-color: #4a4a4a;
+$font-family: Helvetica, sans-serif;
+$taillepolice: 16px;
 
+header {
+    background-color: $background-header ;
+}
 .nav{
      
     display: flex;

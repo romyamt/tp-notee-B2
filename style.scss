@@ -3,52 +3,35 @@ $background-color: #1f2039;
 $clair: #938DBE;
 $primary-color: #4a4a4a;
 $font-family: Helvetica, sans-serif;
+$taillepolice: 16px;
 
 @use 'menu';
+@use 'formulaire';
 
-*{ 
-    margin: 0 ;
+//Suppression de toutes les particularités//
+
+* {
+    margin: 0;
     font-style: normal;
-    text-decoration:none
-
-}
-header{
-    background-color: $background-header ;
+    text-decoration: none
 }
 
-.accueil-introduction{
-    background-color: $background-color;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    padding: 80px;
-    div{
-        padding-right: 200px;
-        margin-bottom: 20px;
-    }
-    a{
-        color: #FFFFFF;
-    }
-    .cta{
-        border-radius: 50px;
-        border: $clair;
-        background-color: $clair;
-        padding: 20px 30px;
-        font-size: 16px;
-    
-    }
-}
+//Personnalisation de la page//
+    //**personnalisation des textes**//
 
-h1{
+h1 {
     font-size: 56px;
     color: $clair;
     font-weight: bold;
     margin-bottom: 15px;
 }
 
-p{
+h2 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+p {
     color: #FFFFFF;
     font-size: 18px;
     margin-bottom: 30px;
@@ -59,21 +42,69 @@ em {
 }
 
 
+    //*Personnalisation des boutons**//
+    
+.cta {
+    display: inline-block;
+    border-radius: 50px;
+    border: $clair;
+    background-color: $clair;
+    padding: 20px 30px;
+    font-size: $taillepolice;
+    color: #FFFFFF;
 
-.accueil-photos{
-    div{
-    background-color: $background-header;
+
+}
+
+
+//Spécifique à la page d'accueil et aux blocs de cette page//
+
+.accueil-introduction {
+    background-color: $background-color;
     margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
-    margin:15px;
-    gap:15px;
-    }
-    h2 {
-        text-align: center;
-        margin: 50px 0px 30px 0px;
+    justify-content: space-around;
+    padding: 80px;
 
+    div {
+        padding-right: 200px;
+        margin-bottom: 20px;
+    }
+
+}
+
+.accueil-photos {
+    padding: 80px;
+
+    div {
+        background-color: $background-header;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin: 15px;
+        gap: 15px;
     }
 }
+
+.section-contact {
+    background-color: $background-color;
+    padding: 80px;
+    h2 {
+        color: $clair;
+        font-size: 30px;
+    }
+    label {
+        color: $background-header;
+        font-size: $taillepolice;
+    }
+    .cta{
+        width: 25%;
+        margin-top: 30px;
+    }
+}
+
+
