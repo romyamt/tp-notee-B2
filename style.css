@@ -21,7 +21,8 @@ header {
   flex-wrap: nowrap;
   justify-content: space-around;
   padding: 5%;
-  padding-left: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 h1 {
@@ -45,8 +46,11 @@ em {
 }
 
 .cta {
-  border-radius: 13%;
+  border-radius: 50px;
   border: #938DBE;
   background-color: #938DBE;
-  padding: 10px;
+  padding: 20px 30px;
+}
+.cta a {
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
