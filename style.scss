@@ -14,13 +14,6 @@ $font-family: Helvetica, sans-serif;
 header{
     background-color: $background-header ;
 }
-.nav{
-     
-        display: flex;
-        flex-direction: row-reverse;
-    
-      
-}
 
 .accueil-introduction{
     background-color: $background-color;
@@ -30,8 +23,7 @@ header{
     flex-wrap: nowrap;
     justify-content: space-around;
     padding: 5%;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
 }
 
 h1{
@@ -55,12 +47,8 @@ em {
 }
 
 .cta{
-    a {
-        color: #ffffff;
-    }
-    border-radius: 50px;
+    border-radius: 13%;
     border: $clair;
     background-color: $clair;
-    padding: 20px 30px;
-   
+    padding: 10px;
 }

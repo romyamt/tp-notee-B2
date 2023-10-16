@@ -1,3 +1,8 @@
+.nav {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 * {
   margin: 0;
   font-style: normal;
@@ -8,11 +13,6 @@ header {
   background-color: #FFFFFF;
 }
 
-.nav {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
 .accueil-introduction {
   background-color: #1f2039;
   margin: auto;
@@ -21,8 +21,7 @@ header {
   flex-wrap: nowrap;
   justify-content: space-around;
   padding: 5%;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 10%;
 }
 
 h1 {
@@ -46,11 +45,8 @@ em {
 }
 
 .cta {
-  border-radius: 50px;
+  border-radius: 13%;
   border: #938DBE;
   background-color: #938DBE;
-  padding: 20px 30px;
-}
-.cta a {
-  color: #ffffff;
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */
