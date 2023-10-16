@@ -1,7 +1,7 @@
 $background-header: #FFFFFF;
 $background-color: #1f2039;
 
-@use 'menu'
+@use 'menu';
 header{
     background-color: $background-header ;
 }
