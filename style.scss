@@ -1,6 +1,11 @@
 $background-header: #FFFFFF;
 $background-color: #1f2039;
 
+@use 'menu'
 header{
     background-color: $background-header ;
+}
+
+.accueil-introduction{
+    background-color: $background-color;
 }
