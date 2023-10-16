@@ -1,3 +1,24 @@
+.menu {
+  background-color: #4a4a4a;
+}
+.menu ul.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu ul.menu-list li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.menu ul.menu-list li a {
+  text-decoration: none;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+.menu ul.menu-list li a:hover {
+  text-decoration: underline;
+}
+
 header {
   background-color: #FFFFFF;
 }
@@ -12,7 +33,8 @@ header {
 }
 
 h1 {
-  font-size: large;
+  font-size: 250%;
+  color: #938DBE;
 }
 
 p {
@@ -20,6 +42,17 @@ p {
 }
 
 em {
-  font-style: normal;
   color: #938DBE;
+}
+
+* {
+  margin: 0;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.cta {
+  border-radius: 13%;
+  border: #938DBE;
+  background-color: #938DBE;
 }/*# sourceMappingURL=style.css.map */

@@ -4,6 +4,7 @@ $clair: #938DBE;
 $font-family: Helvetica, sans-serif;
 
 @use 'menu';
+
 header{
     background-color: $background-header ;
 }
@@ -20,14 +21,27 @@ header{
 }
 
 h1{
-    font-size: large;
+    font-size: 250%;
+    color: $clair;
 }
 
 p{
     color: #FFFFFF;
 }
 
-em{
-    font-style: normal;
+em {
     color: $clair;
+}
+
+*{ 
+    margin: 0 ;
+    font-style: normal;
+    text-decoration:none
+
+}
+
+.cta{
+    border-radius: 13%;
+    border: $clair;
+    background-color: $clair;
 }
