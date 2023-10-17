@@ -5,32 +5,28 @@ $primary-color: #4a4a4a;
 $font-family: 'Manrope', sans-serif;
 $taillepolice: 16px;
 
-h1 {
-    font-size: 3.5em;
-    color: #a5b4fc;
-    font-family: 'Montserrat - Bold', sans-serif;
-  }
-
 header {
     background-color: $background-header;
 }
+
 nav{
-     
     display: flex;
     justify-content: space-between;
     padding: 15px;
     gap: 15px;
     margin: 10px;
-    font-size: 3.5em;
-    color: #a5b4fc;
-    font-family: 'Montserrat - Bold', sans-serif;
-
+    a{
+        color: $primary-color;
+        font-size: 3.5em;
+        font-family: 'Montserrat - Bold', sans-serif;
+    }
 }
+
 .nav{
 
     display: flex;
     padding-top: 20px;
-    gap: 20px;
+    gap: 20px; 
 }
 
 footer{
