@@ -9,27 +9,28 @@ header {
     background-color: $background-header;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     padding: 15px;
     gap: 15px;
     margin: 10px;
-    a{
+
+    a {
         color: $primary-color;
         font-size: 19px;
         font-family: 'Montserrat - Bold', sans-serif;
     }
 }
 
-.nav{
+.nav {
 
     display: flex;
     padding-top: 20px;
-    gap: 20px; 
+    gap: 20px;
 }
 
-footer{
+footer {
 
     display: flex;
     justify-content: space-between;
@@ -37,23 +38,3 @@ footer{
     gap: 15px;
     margin: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-

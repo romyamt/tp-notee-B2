@@ -67,7 +67,8 @@ textarea {
   max-height: 20%;
 }
 
-textarea, input {
+textarea,
+input {
   border-radius: 13px;
   border: none;
   padding: 15px;
@@ -167,7 +168,8 @@ label[for=message] {
     gap: 15px;
   }
 }
-.paysages img, .portraits img {
+.paysages img,
+.portraits img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -177,10 +179,12 @@ label[for=message] {
 .a-propos-main {
   background-color: #1f2039;
 }
-.a-propos-main h1, .a-propos-main h2 {
+.a-propos-main h1,
+.a-propos-main h2 {
   text-align: center;
 }
-.a-propos-main h2, .a-propos-main ul {
+.a-propos-main h2,
+.a-propos-main ul {
   color: #FFFFFF;
 }
 .a-propos-main h2 {
