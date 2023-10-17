@@ -1,0 +1,38 @@
+$background-header: #FFFFFF;
+$background-color: #1f2039;
+$clair: #938DBE;
+$primary-color: #4a4a4a;
+$font-family: Helvetica, sans-serif;
+$taillepolice: 16px;
+
+
+.a-propos-main{
+    background-color: $background-color;
+    h1, h2{
+        text-align: center;
+    }   
+    h2,ul{
+        color: #FFFFFF;
+    } 
+    p{
+        padding: 25px;
+        border-right: $clair;
+        font-size: 18px;
+        }
+    ul{
+        padding-bottom: 30px  ;
+    }
+    
+}
+
+.carre-contenu{
+    border-right: 1px solid #8e86b5 ;
+    border-bottom: 1px solid #8e86b5;
+    margin: auto;
+    width: 50%;
+
+    .cta{
+        
+    }
+   
+}
