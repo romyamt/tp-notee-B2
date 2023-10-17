@@ -15,14 +15,15 @@ $taillepolice: 16px;
     justify-content: space-around;
     align-items: flex-start;
     padding: 80px;
-    
+
 
     div {
-        padding-right: 300px;
+        padding-right: 200px;
         margin-bottom: 20px;
         font-size: 15px;
     }
-    h1{
+
+    h1 {
         padding: 0%;
     }
 
@@ -31,7 +32,7 @@ $taillepolice: 16px;
 .accueil-photos {
     padding: 80px;
 
-    h2{
+    h2 {
         text-align: center;
     }
 
@@ -50,19 +51,20 @@ $taillepolice: 16px;
 .section-contact {
     background-color: $background-color;
     padding: 80px;
+
     h2 {
         color: $clair;
         font-size: 30px;
         text-align: center;
     }
+
     label {
         color: $background-header;
         font-size: $taillepolice;
     }
-    .cta{
+
+    .cta {
         width: 25%;
         margin-top: 30px;
     }
 }
-
-

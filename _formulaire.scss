@@ -1,31 +1,38 @@
-form{ //**Tout le formualire**//
+form {
+    //**Tout le formualire**//
     display: flex;
     flex-direction: column;
     max-width: 1000px;
     margin: auto;
 }
-.form-nom-email { //**Formulaire Nom et Email**//
+
+.form-nom-email {
+    //**Formulaire Nom et Email**//
     display: flex;
     flex-direction: row;
-    gap: 60px;;    
+    gap: 60px;
+    ;
 }
 
-input{ //**Remplir Nom et E-mail**//
+input {
+    //**Remplir Nom et E-mail**//
     margin-top: 0px;
     width: 100%;
     margin: auto;
 }
 
-.form-column{ //**Le nom plus l'input du champ**//
+.form-column {
+    //**Le nom plus l'input du champ**//
     flex: 1;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
     gap: 20px;
-    
+
 }
 
-textarea{ //**remplir le message**//
+textarea {
+    //**remplir le message**//
     display: flex;
     flex-direction: column;
     border-radius: 3px;
@@ -36,12 +43,13 @@ textarea{ //**remplir le message**//
     max-height: 20%;
 }
 
-textarea, input{
+textarea,
+input {
     border-radius: 13px;
-    border:none;
+    border: none;
     padding: 15px;
 }
 
-label[for="message"]{
+label[for="message"] {
     margin-bottom: 20px;
 }
