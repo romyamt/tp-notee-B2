@@ -14,13 +14,6 @@ nav {
   padding: 15px;
   gap: 15px;
   margin: 10px;
-  font-size: 3.5em;
-  color: #a5b4fc;
-  font-family: "Montserrat - Bold", sans-serif;
-}
-nav a {
-  color: #4a4a4a;
-  text-decoration: none;
 }
 
 .nav {
