@@ -3,6 +3,7 @@ $background-color: #1f2039;
 $clair: #938DBE;
 $primary-color: #4a4a4a;
 $taillepolice: 16px;
+$police: sans-serif;
 
 //Insertion des fichiers particuliers aux pages//
 @use 'menu';
@@ -14,7 +15,7 @@ $taillepolice: 16px;
 //Suppression de toutes les particularités//
 
 body {
-    font-family: sans-serif;
+    font-family: $police;
 }
 
 * {
