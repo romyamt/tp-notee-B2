@@ -320,4 +320,8 @@ em {
 }
 .cta .btn2:hover h4 {
   color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
