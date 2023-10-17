@@ -20,7 +20,8 @@ $taillepolice: 16px;
         font-size: 18px;
         }
     ul{
-        padding-bottom: 30px  ;
+        list-style-type: disc;
+    
     }
     
 }
@@ -30,9 +31,4 @@ $taillepolice: 16px;
     border-bottom: 1px solid #8e86b5;
     margin: auto;
     width: 50%;
-
-    .cta{
-        
-    }
-   
 }

@@ -170,7 +170,7 @@ label[for=message] {
   font-size: 18px;
 }
 .a-propos-main ul {
-  padding-bottom: 30px;
+  list-style-type: disc;
 }
 
 .carre-contenu {
@@ -179,6 +179,7 @@ label[for=message] {
   margin: auto;
   width: 50%;
 }
+
 * {
   margin: 0;
   font-style: normal;
