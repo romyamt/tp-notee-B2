@@ -2,7 +2,7 @@ $background-header: #FFFFFF;
 $background-color: #1f2039;
 $clair: #938DBE;
 $primary-color: #4a4a4a;
-$font-family: Helvetica, sans-serif;
+$font-family: sans-serif;
 $taillepolice: 16px;
 
 //Spécifique à la page d'accueil et aux blocs de cette page//
@@ -18,9 +18,9 @@ $taillepolice: 16px;
     
 
     div {
-        padding-right: 200px;
+        padding-right: 300px;
         margin-bottom: 20px;
-        font-size: 20px;
+        font-size: 15px;
     }
     h1{
         padding: 0%;
@@ -42,7 +42,7 @@ $taillepolice: 16px;
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: center;
-        margin: 15px;
+        margin: 10px;
         gap: 15px;
     }
 }
