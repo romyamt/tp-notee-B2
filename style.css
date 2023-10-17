@@ -9,6 +9,10 @@ nav {
   gap: 15px;
   margin: 10px;
 }
+nav a {
+  color: #4a4a4a;
+  text-decoration: none;
+}
 
 .nav {
   display: flex;
