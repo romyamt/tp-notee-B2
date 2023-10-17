@@ -87,9 +87,9 @@ label[for=message] {
   padding: 80px;
 }
 .accueil-introduction div {
-  padding-right: 200px;
+  padding-right: 300px;
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 15px;
 }
 .accueil-introduction h1 {
   padding: 0%;
@@ -108,7 +108,7 @@ label[for=message] {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  margin: 15px;
+  margin: 10px;
   gap: 15px;
 }
 
@@ -245,6 +245,10 @@ h2 {
 h1,
 h2 {
   text-align: center;
+}
+
+body {
+  font-family: sans-serif;
 }
 
 * {
