@@ -1,9 +1,15 @@
 $background-header: #FFFFFF;
 $background-color: #1f2039;
-$clair: #938DBE;
+$clair: #9eadf3;
 $primary-color: #4a4a4a;
-$font-family_1: 'Helvetica', sans-serif;
+$font-family: 'Manrope', sans-serif;
 $taillepolice: 16px;
+
+h1 {
+    font-size: 3.5em;
+    color: #a5b4fc;
+    font-family: 'Montserrat - Bold', sans-serif;
+  }
 
 header {
     background-color: $background-header;
@@ -15,6 +21,9 @@ nav{
     padding: 15px;
     gap: 15px;
     margin: 10px;
+    font-size: 3.5em;
+    color: #a5b4fc;
+    font-family: 'Montserrat - Bold', sans-serif;
 
 }
 .nav{

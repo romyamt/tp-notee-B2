@@ -1,3 +1,9 @@
+h1 {
+  font-size: 3.5em;
+  color: #a5b4fc;
+  font-family: "Montserrat - Bold", sans-serif;
+}
+
 header {
   background-color: #FFFFFF;
 }
@@ -8,6 +14,9 @@ nav {
   padding: 15px;
   gap: 15px;
   margin: 10px;
+  font-size: 3.5em;
+  color: #a5b4fc;
+  font-family: "Montserrat - Bold", sans-serif;
 }
 
 .nav {
@@ -222,7 +231,6 @@ table {
   border-collapse: collapse;
   margin: auto;
   width: 85%;
-  margin-bottom: 30px;
 }
 
 td,
