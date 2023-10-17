@@ -14,6 +14,9 @@ $taillepolice: 16px;
     h2,ul{
         color: #FFFFFF;
     } 
+    h2{
+        padding-top: 50px;
+    }
     p{
         padding: 25px;
         border-right: $clair;
@@ -21,26 +24,23 @@ $taillepolice: 16px;
         }
     ul{
         list-style-type: disc;
+        font-size: 20px;
     
     }
-    
+    section{
+    padding-bottom: 50px;
+    }
 }
 
-.carre-contenu{
-    border-right: 1px solid #8e86b5 ;
-    border-bottom: 1px solid #8e86b5;
-    margin: auto;
-    width: 50%;
-}
+
 
 
 .carre-contenu {
     border-right: 1px solid #8e86b5;
     border-bottom: 1px solid #8e86b5;
-    padding: 50px;
+    padding: 0px 50px 50px 50px;
     width: 50%;
     margin: auto;
-    margin-bottom: 80px;
   }
   
   .carre-contenu h2 {
