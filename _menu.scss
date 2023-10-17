@@ -2,21 +2,43 @@ $background-header: #FFFFFF;
 $background-color: #1f2039;
 $clair: #938DBE;
 $primary-color: #4a4a4a;
-$font-family: Helvetica, sans-serif;
+$font-family_1: 'Helvetica', sans-serif;
 $taillepolice: 16px;
 
 header {
     background-color: $background-header ;
 }
-.nav{
+nav{
      
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     padding: 15px;
     gap: 15px;
     margin: 10px;
 
 }
+.nav{
+
+    display: flex;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+footer{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    gap: 15px;
+    margin: 10px;
+
+
+}
+
+
+
+
+
 
 
 
